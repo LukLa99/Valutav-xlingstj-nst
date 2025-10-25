@@ -15,6 +15,5 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
-springdoc:
-  swagger-ui:
-    path: /swagger-ui.html
+external-api:
+  exchange-rate-api: https://api.riksbank.se/swea/v1
